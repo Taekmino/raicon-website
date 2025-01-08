@@ -27,19 +27,23 @@ header {
   background-color: #fff;
   border-bottom: 1px solid #eee;
 }
+/* Align the logo and text vertically in the center */
 .logo-container {
-  display: flex;
-  align-items: center;
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Vertically align items */
 }
+/* Adjust the logo size if needed */
 .logo {
-  height: 40px;
-  margin-right: 0.5rem;
+  height: 50px; /* Example size */
+  margin-right: 10px; /* Add some spacing between the image and text */
 }
+/* Customize the text style */
 .logo-text {
-  font-weight: bold;
-  font-size: 1.25rem;
-  color: #000;
-  text-decoration: none;
+  font-family: 'Arial', sans-serif; /* Change font-family */
+  font-size: 24px; /* Adjust font size */
+  font-weight: bold; /* Make the text bold */
+  color: #000; /* Set the text color */
+  text-decoration: none; /* Remove underline */
 }
 .menu ul {
   display: flex;
