@@ -295,7 +295,7 @@ header {
 .mission-section h2 {
   font-size: 1.5rem; /* Adjust font size for section titles */
   margin-bottom: 1rem; /* Add space below titles */
-  color: #007BFF; /* Optional: Add a theme color */
+  color: #000; /* Optional: Add a theme color */
 }
 
 .mission-section ul li {
@@ -336,4 +336,27 @@ table tbody tr:hover {
 table img {
   max-width: 100px; /* Restrict the size of GIFs */
   border-radius: 4px; /* Optional rounded corners */
+}
+
+/* Table Columns Width (2:2:6) */
+.competition-results table th:nth-child(1), /* Rank Column */
+.competition-results table td:nth-child(1) {
+  width: 10%; /* 2/10 of the table width */
+}
+
+.competition-results table th:nth-child(2), /* Team Name Column */
+.competition-results table td:nth-child(2) {
+  width: 10%; /* 2/10 of the table width */
+}
+
+.competition-results table th:nth-child(3), /* Driving Video Column */
+.competition-results table td:nth-child(3) {
+  width: 60%; /* 6/10 of the table width */
+  text-align: center; /* Center-align images */
+}
+
+.competition-results table img {
+  max-width: 100%; /* Ensure images fit within their cell */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 4px; /* Optional: Rounded corners */
 }
