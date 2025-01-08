@@ -284,3 +284,56 @@ header {
   background-color: #ddd; /* Light gray color for the line */
   margin: 2rem 0; /* Space above and below the line */
 }
+
+/* Mission Section List */
+.mission-section ul {
+  list-style-type: disc; /* Use bullet points */
+  margin-left: 2rem; /* Indent list items */
+  line-height: 1.8; /* Add spacing between list items */
+}
+
+.mission-section h2 {
+  font-size: 1.5rem; /* Adjust font size for section titles */
+  margin-bottom: 1rem; /* Add space below titles */
+  color: #007BFF; /* Optional: Add a theme color */
+}
+
+.mission-section ul li {
+  color: #333; /* List text color */
+}
+
+
+
+
+/* General Table Styles */
+table {
+  width: 100%; /* Full width */
+  border-collapse: collapse; /* Remove double borders */
+  margin: 2rem 0; /* Space around the table */
+  font-size: 0.9rem; /* Adjust font size */
+}
+
+table th, table td {
+  border: 1px solid #ddd; /* Light gray borders */
+  padding: 0.75rem; /* Add padding for readability */
+  text-align: center; /* Center align text */
+}
+
+table th {
+  background-color: #f4f4f4; /* Light gray header background */
+  font-weight: bold; /* Make headers bold */
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: #fafafa; /* Add alternating row colors */
+}
+
+table tbody tr:hover {
+  background-color: #f1f1f1; /* Highlight row on hover */
+}
+
+/* Driving Video Images */
+table img {
+  max-width: 100px; /* Restrict the size of GIFs */
+  border-radius: 4px; /* Optional rounded corners */
+}
