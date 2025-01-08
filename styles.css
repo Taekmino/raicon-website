@@ -223,31 +223,45 @@ header {
 
 /* Mission Section Layout */
 .mission-section {
-  padding: 2rem 3rem; /* Consistent padding */
+  padding: 2rem 3rem; /* Consistent padding for all mission sections */
 }
 
 .content-container {
-  display: flex; /* Use Flexbox for layout */
+  display: flex; /* Flexbox for layout */
   align-items: center; /* Center content vertically */
   gap: 1rem; /* Space between text and image */
+  margin-bottom: 2rem; /* Add spacing between mission groups */
 }
 
-/* Mission Text Area (60% width) */
+/* Text Area (60% width) */
 .mission-text {
   flex: 6; /* 6/10 of the container width */
   color: #333; /* Text color */
   line-height: 1.6;
 }
 
-/* Mission Image Area (40% width) */
+.mission-text h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.mission-text ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  line-height: 1.6;
+  color: #333; /* Text color */
+}
+
+/* Image Area (40% width) */
 .mission-image {
   flex: 4; /* 4/10 of the container width */
-  display: flex; /* Center image horizontally */
-  justify-content: center;
+  display: flex;
+  justify-content: center; /* Center image horizontally */
+  align-items: center; /* Center image vertically */
 }
 
 .mission-image img {
-  max-width: 100%; /* Ensure the image fits within its container */
+  max-width: 100%; /* Ensure image fits the container */
   border-radius: 8px; /* Optional: Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better appearance */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
 }
