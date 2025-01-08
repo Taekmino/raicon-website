@@ -1,0 +1,213 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Fonts & Colors */
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Navigation Bar */
+  .nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  .logo {
+    height: 40px;
+    margin-right: 0.5rem;
+  }
+  .logo-text {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #000;
+    text-decoration: none;
+  }
+  .menu ul {
+    display: flex;
+    list-style: none;
+  }
+  .menu li a {
+    margin-left: 1.5rem;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    background-color: #fafafa;
+  }
+  .hero-text {
+    flex: 1;
+    margin-right: 2rem;
+  }
+  .hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .hero-text p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .get-started-btn {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    border-radius: 0.25rem;
+  }
+  .hero-images .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+  }
+  .grid-item img {
+    width: 100%;
+    border-radius: 0.25rem;
+  }
+  
+  /* Teaching Section */
+  .teaching-section {
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+    background-color: #fff;
+  }
+  .teaching-section .text {
+    flex: 1;
+    margin-right: 2rem;
+  }
+  .teaching-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .blue-bar {
+    display: inline-block;
+    width: 6px;
+    height: 24px;
+    background-color: #007BFF;
+    margin-right: 0.5rem;
+  }
+  .teaching-section p {
+    margin-bottom: 1.5rem;
+  }
+  .teaching-btn {
+    background-color: #FFD700;
+    color: #333;
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    font-weight: bold;
+  }
+  .image-slider img {
+    max-width: 400px;
+    border-radius: 0.25rem;
+  }
+  
+  /* Learning Section */
+  .learning-section {
+    display: flex;
+    padding: 2rem;
+    background-color: #fafafa;
+    align-items: center;
+  }
+  .learning-section .text {
+    flex: 1;
+    margin-right: 2rem;
+  }
+  .learning-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .learning-section p {
+    margin-bottom: 1.5rem;
+  }
+  .learning-btn {
+    background-color: #FFD700;
+    color: #333;
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    font-weight: bold;
+  }
+  .learning-section .learning-image img {
+    max-width: 400px;
+    border-radius: 0.25rem;
+  }
+  
+  /* Footer */
+  .footer-section {
+    padding: 2rem;
+    background-color: #fff;
+    border-top: 1px solid #eee;
+  }
+  .stay-in-touch {
+    margin-bottom: 2rem;
+  }
+  .stay-in-touch h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+  .newsletter-form {
+    display: flex;
+    max-width: 300px;
+  }
+  .newsletter-form input[type="email"] {
+    flex: 1;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+  }
+  .subscribe-btn {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .social-icons {
+    margin-bottom: 1rem;
+  }
+  .social-icons a {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #333;
+  }
+  .legal-links {
+    display: flex;
+    list-style: none;
+    margin-bottom: 1rem;
+  }
+  .legal-links li {
+    margin-right: 1rem;
+  }
+  .legal-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
