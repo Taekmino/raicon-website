@@ -166,6 +166,8 @@ header {
 .footer-section {
   background-color: #fff;
   border-top: 1px solid #eee;
+  text-align: center;
+  padding: 2rem;
 }
 .stay-in-touch {
   margin-bottom: 2rem;
@@ -197,28 +199,37 @@ header {
 .footer-links {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  gap: 1rem;
 }
 .social-icons {
-  margin-bottom: 1rem;
+  display: flex;
+  gap: 1rem;
 }
 .social-icons a {
-  margin-right: 1rem;
   text-decoration: none;
   color: #333;
+  font-weight: 500;
 }
 .legal-links {
-  display: flex;
   list-style: none;
-  margin-bottom: 1rem;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
 }
 .legal-links li {
-  margin-right: 1rem;
+  margin: 0; /* Ensure no additional margin around list items */
 }
 .legal-links li a {
   text-decoration: none;
   color: #333;
   font-weight: 500;
+  transition: color 0.3s ease; /* Add smooth transition effect for hover */
+}
+.legal-links li a:hover {
+  color: #007BFF; /* Change color on hover for better interactivity */
 }
 
 /* Mission Section Layout */
