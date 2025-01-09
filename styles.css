@@ -302,8 +302,22 @@ header {
   color: #333; /* List text color */
 }
 
+.raicon-banner img {
+  width: 100%; /* Full width of the container */
+  object-fit: cover; /* Maintain aspect ratio and fill the space */
+  display: block; /* Remove any inline spacing */
+  margin: 0 auto; /* Center the image horizontally */
+  border-radius: 8px; /* Optional: Add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
 
-
+.grid-item img {
+  width: 100%; /* 각 이미지를 컨테이너 너비에 맞게 조정 */
+  height: 150px; /* 동일한 높이로 설정 */
+  object-fit: cover; /* 이미지 비율을 유지하며 컨테이너에 맞게 자르기 */
+  border-radius: 8px; /* Optional: Add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add subtle shadow */
+}
 
 /* General Table Styles */
 table {
